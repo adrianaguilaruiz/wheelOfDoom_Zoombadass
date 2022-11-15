@@ -9,17 +9,35 @@
 
 @media (min-width: 200px) {
 .message {
-    padding: 30px;
-display: flex;
-justify-content: center;
-align-items: center;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    background-color: #0e72ed;
+    width: 50%;   
+    text-align: center; 
+    margin: auto;
+    margin-bottom: 10px;
 }
-.monitor {
-    padding: 30px;
-display: flex;
-justify-content: center;
-align-items: center;    
+/*monitor*/
+.container{
+    position: relative;
+    display: flex;
+    color: white;
+    text-align: center;
+    justify-content: center;
+  
 }
+/*lista de coders*/
+.listCoders{
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    text-align: left;
+    transform: translate(-50%, -50%);
+}
+
 }
 
 
