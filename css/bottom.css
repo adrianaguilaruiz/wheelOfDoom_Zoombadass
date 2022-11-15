@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: #565656;
+
+}
+
+@media (min-width: 200px) {
+.message {
+    padding: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.monitor {
+    padding: 30px;
+display: flex;
+justify-content: center;
+align-items: center;    
+}
+}
+
+
+
