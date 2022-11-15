@@ -6,6 +6,18 @@
     background-color: #565656;
 }
 
+/* .upper{
+    background-image: url(images/footerZoom.png);
+} */
+
+/* article{
+    background-image: url(/images/footerZoom.png);
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    position: relative;
+} */
+
 @media (min-width: 200px) {
     .boxHostName {
         padding: 30px;
@@ -37,5 +49,38 @@
         display: flex;
         justify-content: center;
     }
+}
+
+.participants{
+    display: flex;
+    justify-content: center;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 550px;
+}
+
+.col{
+    display: flex;
+    padding: 30px;
+    background-color: #D6D6D6;
+    max-width: 150px;
+    min-width: 100px;
+    width: 100px;
+    height: 80px;
+    font-size: smaller;
+    border: 2px solid #000000;
+    justify-content: center;
+    align-items: center;
+}
+
+figure{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    position: relative;
 }
 
