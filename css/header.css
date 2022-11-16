@@ -4,15 +4,10 @@
  padding: 0;
 }
 header{
-    width: 100%;
-    background: #D6D6D6 ;
-    height: 70px;
+    display: flex ;
+    height:  70px;
+    background-color:#D6D6D6 ;
 }
-.Container{
-    width: 80%;
-    height: 70px;
-    margin: auto;
-}
-.ContainerLog{
-    
+.log img{
+    height: 50px;
 }
