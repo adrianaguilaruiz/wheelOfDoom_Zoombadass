@@ -6,19 +6,56 @@
     background-color: #565656;
 }
 
-/* .upper{
-    background-image: url(images/footerZoom.png);
-} */
+article {
+    max-width: 100%;
+}
 
-/* article{
-    background-image: url(/images/footerZoom.png);
-    height: 100vh;
+h4 {
+    padding-bottom: 5%;
+}
+
+input {
+    color: white;
+    max-width: 100%;
+}
+
+#test {
     width: 100%;
-    text-align: center;
-    position: relative;
-} */
+}
 
-@media (min-width: 200px) {
+@media (max-width: 576px) {
+
+    .containerUpper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    #button1 {
+        background-color: #0E72ED    ;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        color: aliceblue;
+    }
+
+    #host {
+        background-color: #D6D6D6;
+        display: flex;
+        justify-content: center;
+    }
+
+    .boxHostName {
+        padding: 30px;
+        background-color: #D6D6D6;
+        border-radius: 5%;
+        max-width: 60%;
+        margin: 5%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 800px) {
     .boxHostName {
         padding: 30px;
         background-color: #D6D6D6;
@@ -51,19 +88,54 @@
     }
 }
 
-.participants{
+@media (min-width: 800px) {
+    .boxHostName {
+        padding: 30px;
+        background-color: #D6D6D6;
+        border-radius: 5%;
+        max-width: 60%;
+        margin: 5%;
+    }
+
+    .containerUpper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        max-width: 100%;
+    }
+
+
+    #button1 {
+        background-color: #0E72ED    ;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        color: aliceblue;
+}
+
+    #host {
+        background-color: #D6D6D6;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+.participants {
     display: flex;
     justify-content: center;
 }
 
-.row{
+.row {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     max-width: 550px;
 }
 
-.col{
+.col {
     display: flex;
     padding: 30px;
     background-color: #D6D6D6;
@@ -77,10 +149,11 @@
     align-items: center;
 }
 
-figure{
-    height: 100%;
+#footerZoom {
+    padding-top: 5%;
     width: 100%;
-    text-align: center;
-    position: relative;
 }
 
+#headerZoom {
+    width: 100%;
+}
