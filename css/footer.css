@@ -5,34 +5,13 @@
   font-family: 'Roboto', sans-serif;
   background-color: #D6D6D6;
 }
-/* .footerPag{
-    width: 100%;
-    background-color: #D6D6D6;
-  } */
   footer{
     display:flex;
     flex-direction: row;
     justify-content: space-between;    
     margin: 5px;
   }
-  /* .footerPag .group1{
-    display:flex;
-    justify-content: flex-end;
-    width:100%;
-    max-width:1200px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap:50px;
-    padding:45px 0px;
-  }
-  .footerPag .group1 .box h4{
-    color: black;
-    margin-bottom: 15px;
-    display:flex;  
-    justify-content: flex-end;   
-  }
-  */
+ 
 h6{
   padding-bottom: 5px;
 }
@@ -52,11 +31,9 @@ h6{
     color: #0E72ED;
   }
 
-  /*Copyright*/
+  
 .group2 {
   background-color: #D6D6D6f0;
-/*   display:flex;
-  text-align: end; */
   
   }
   @media screen and (max-width: 800px){
