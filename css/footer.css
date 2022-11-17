@@ -5,16 +5,19 @@
   font-family: 'Roboto', sans-serif;
   background-color: #D6D6D6;
 }
-  footer{
+
+footer{
     display:flex;
     flex-direction: row;
     justify-content: space-between;    
+    align-items: center;
     margin: 5px;
   }
- 
+
 h6{
   padding-bottom: 5px;
 }
+
 .group1 .socialMedia a{
   justify-content: flex-end;
   text-decoration: none;
@@ -22,25 +25,49 @@ h6{
   height: 45px;
   line-height: 45px; 
   color: black;
-  margin-right: 10px ;
+  margin-right: 5px ;
   background-color: white;
   text-align: center;
   transition: all 300ms ease;
   }
- .group1 .socialMedia a:hover{
+
+.group1 .socialMedia a:hover{
     color: #0E72ED;
   }
 
-  
-.group2 {
-  background-color: #D6D6D6f0;
-  
-  }
-  @media screen and (max-width: 800px){
+
+@media screen and (max-width: 800px){
     .footerPag .group1{
         width:100%;
         grid-template-columns: repeat(1, 1fr);
         grid-gap:50px;
         padding:45px 0px;
     }
+  }
+
+@media screen and (max-width: 576px){
+    .footerPag .group1{
+        width:100%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:50px;
+        padding:45px 0px;
+    }
+
+    .group1 .socialMedia a{
+      justify-content: flex-end;
+      text-decoration: none;
+      width: 35px;
+      height: 35px;
+      line-height: 45px; 
+      color: black;
+      margin-right: 5px ;
+      background-color: white;
+      text-align: center;
+      transition: all 300ms ease;
+      }
+
+    .group2 {
+      max-width: 50%;
+    }
+
   }
