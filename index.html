@@ -7,25 +7,97 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
     </style>
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/upper.css">
     <link rel="stylesheet" href="./css/bottom.css">
+    <link href="./css/footer.css" type="text/css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/27097f60e3.js" crossorigin="anonymous"> </script>
     <title>ZOOMbadass</title>
 </head>
+    
+
+
 <body>
-        <!--aquí va el upper-->
-        <main> 
-                <article>
-                    <div class="message">  
-                        <p class="message">La Coder XXXXXXX ha sido eliminada</p> 
-                    </div>
-                    <div class="container">
-                        <img src="./images/monitor.png" alt="ordenador" width=80%">
-                        <div class="listCoders">
-                            <p>La Coder LOLA ha sido eliminada</p>
-                            <p>La Coder PAULA ha sido eliminada</p>
-                        </div>
-                    </div>
-                </article>        
-        </main>
-    <script src="./js/main.js" type="text/javascript"></script>
+    <header>  
+      <div class="log">
+        <img src="./images/image.png" alt="logo"> 
+      </div>
+      <h4>Sala de Juego</h4>
+      <img id="window" src="./images/min.PNG" alt="Botones de ventana">
+    </header>
+
+    <!--upper main-->
+    <article>
+
+      <figure>
+        <img id="headerZoom" src="./images/headerZoom2.png" alt="Header de Zoom">
+      </figure>
+
+      <div id="test">
+        <div class="containerUpper">
+            <a href="#">
+                <button id="button1">JUGAR</button>
+            </a>
+            <div class="boxHostName">
+                <h4 id="host">Anfitrión</h4>
+                <input type="text" size="auto" maxlength="40" placeholder="Insertar participante..." name="nombre">
+            </div>
+            <a href="#">
+                <button id="button1">AÑADIR</button>
+            </a>
+        </div>
+      
+
+        <div class="participants">
+            <div class="row">
+                <div class="col">Paula</div>
+                <div class="col">Adriana</div>
+                <div class="col">Veronika</div>
+                <div class="col">Lola García</div>
+                <div class="col">Natalia</div>
+                <div class="col">Raquel</div>
+            </div>
+
+        </div>
+      </div>  
+
+        <figure>
+          <img id="footerZoom" src="./images/footerZoom.png" alt="Footer de Zoom">
+        </figure>
+    </article>
+
+    <!--article part 2-->
+    <article>
+      <div class="message">  
+          <p class="message">La Coder XXXXXXX ha sido eliminada</p> 
+      </div>
+      <div class="container">
+          <img src="./images/monitor.png" alt="ordenador" width=80%">
+          <div class="listCoders">
+              <p>La Coder LOLA ha sido eliminada</p>
+              <p>La Coder PAULA ha sido eliminada</p>
+          </div>
+      </div>
+    </article>   
+
+      <footer>
+        <div class="group2">
+          <small> &copy; 2022 <b>Zoombadass</b></small> 
+          <br>
+          <small> Todos los derechos reservados.</small>
+        </div>  
+        <div class="group1">
+            <div class="box">
+              <h6>Síguenos:</h6>
+              <div class="socialMedia">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-linkedin-square"></a>
+                <a href="#" class="fa fa-twitter"></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+<script src="./js/main.js" type="text/javascript"></script>      
 </body>
 </html>

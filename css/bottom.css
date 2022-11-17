@@ -3,9 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    background-color: #565656;
-
 }
+
 
 @media (max-width:576px) {
     .message {
@@ -17,10 +16,10 @@
         background-color: #0e72ed;
         width: 100%;   
         text-align: center; 
-        margin: auto;
         margin-bottom: 10px;
         font-size:100%;
     }
+
     /*monitor*/
     .container{
         position: relative;
