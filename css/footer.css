@@ -3,18 +3,20 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
-  background-color: #D6D6D6;
 }
+
   footer{
     display:flex;
     flex-direction: row;
     justify-content: space-between;    
     margin: 5px;
+    background-color: white;
   }
- 
+
 h6{
   padding-bottom: 5px;
 }
+
 .group1 .socialMedia a{
   justify-content: flex-end;
   text-decoration: none;
@@ -27,20 +29,17 @@ h6{
   text-align: center;
   transition: all 300ms ease;
   }
- .group1 .socialMedia a:hover{
+
+.group1 .socialMedia a:hover{
     color: #0E72ED;
   }
+  
 
-  
-.group2 {
-  background-color: #D6D6D6f0;
-  
-  }
-  @media screen and (max-width: 800px){
+@media screen and (max-width: 800px){
     .footerPag .group1{
         width:100%;
         grid-template-columns: repeat(1, 1fr);
         grid-gap:50px;
         padding:45px 0px;
     }
-  }
+}
