@@ -70,6 +70,7 @@
     text-align: left;
     transform: translate(-50%, -50%);
 }
+}
 @media (min-width:800px) {
     .message {
         padding: 10px;
