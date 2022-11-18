@@ -1,34 +1,32 @@
-//Botón play
+//Botón play en una constante y la hacemos llegar al HTML con docuemn
 const playButton = document.querySelector('#playButton');
 
+//le decimos a la constante que cuando se haga click en JUGAR ejecute la funcion startPlay
 playButton.addEventListener('click', startPlay());
 
+//Array participantes con nombre y sin estado ON/OFF
+let listCoders = ['Natalia', 'Paula', 'Veronika','Lola G', 'Adriana','Raquel'];
+
+// función que ejecuta el botón JUGAR: creamos variable con List COders vivas ON que sea aleatoria con Math random
 function startPlay(){
+    let listCodersOn = Math.random()*listCoders.length;
+
     console.log("le has dado");
+    return(listCodersOn);
 };
 
+// variable con listado de coders eliminadas
+let listCodersOff =[]; 
 
-//Array participantes
-let listCoders = [
-    {name: 'Natalia', status: 'on'},
-    {name: 'Paula', status: 'on'},
-    {name: 'Veronika', status: 'on'},
-    {name: 'Lola García', status: 'on'},
-    {name: 'Adriana', status: 'on'},
-    {name: 'Raquel', status: 'on'}
-];
-console.log(listCoders)
+//mostrar en consola la variable con array de todas las coders
+console.log(listCoders.length)
 
 
 
 
-//Seleccionar coder
 
+//Pop up message de eliminación
 
-
-
-//Pop up
-
-//Listado inverso
+//Listado inverso con splice
 
 //Añadir participante
