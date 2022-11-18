@@ -1,10 +1,10 @@
 //Botón play
 const playButton = document.querySelector('#playButton');
 
-playButton.addEventListener('click', startPlay);
+playButton.addEventListener('click', startPlay());
 
 function startPlay(){
-    
+    console.log("le has dado");
 };
 
 
