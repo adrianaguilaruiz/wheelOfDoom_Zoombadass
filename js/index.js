@@ -9,10 +9,15 @@ let listCoders = ['Natalia', 'Paula', 'Veronika','Lola G', 'Adriana','Raquel'];
 
 // función que ejecuta el botón JUGAR: creamos variable con List COders vivas ON que sea aleatoria con Math random
 function startPlay(){
-    let listCodersOn = Math.random()*listCoders.length;
+    let listCodersOn = Math.floor(Math.random()*1);
 
-    console.log("le has dado");
-    return(listCodersOn);
+
+
+console.log(listCodersOn);
+
+
+    //console.log("le has dado");
+   
 };
 
 // variable con listado de coders eliminadas
