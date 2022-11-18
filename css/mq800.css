@@ -43,7 +43,7 @@ header{
     }
 
 
-    #button1 {
+    .button1 {
         background-color: #0E72ED;
         width: 60px;
         height: 60px;
