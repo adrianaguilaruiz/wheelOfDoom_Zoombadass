@@ -37,40 +37,14 @@
         transform: translate(-50%, -50%);
         font-size:80%;
     }
+
+    #footerZoom2 {
+        display: none;
+    }
+    
 }
 @media (min-width:576px) and (max-width:800px) {
-    .message {
-        padding: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color:white;
-        background-color: #0e72ed;
-        width: 70%;   
-        text-align: center; 
-        margin: auto;
-        margin-bottom: 10px;
-        font-size:100%;
 
-}
-/*monitor*/
-.container{
-    position: relative;
-    display: flex;
-    color: white;
-    text-align: center;
-    justify-content: center;
-}
-/*lista de coders*/
-.listCoders{
-    position: absolute;
-    top: 10%;
-    left: 45%;
-    text-align: left;
-    transform: translate(-50%, -50%);
-}
-}
-@media (min-width:800px) {
     .message {
         padding: 10px;
         display: flex;
@@ -85,7 +59,6 @@
         font-size:100%;
 
     }
-
     /*monitor*/
     .container{
         position: relative;
@@ -94,7 +67,6 @@
         text-align: center;
         justify-content: center;
     }
-
     /*lista de coders*/
     .listCoders{
         position: absolute;
@@ -102,7 +74,10 @@
         left: 45%;
         text-align: left;
         transform: translate(-50%, -50%);
-        font-size:100%;
-
     }
+
+    #footerZoom2 {
+        display: none;
+    }
+
 }
