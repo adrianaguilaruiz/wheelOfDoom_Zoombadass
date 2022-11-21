@@ -40,7 +40,7 @@
         <div id="test">
           <div class="containerUpper">
               <a href="#">
-                  <button id="playButton" class="button1" onclick="startPlay()">JUGAR</button>
+                  <button id="playButton" class="button1" onclick="startPlay">JUGAR</button>
               </a>
               <div class="boxHostName">
                   <h4 id="host">Anfitrión</h4>
@@ -52,15 +52,15 @@
           </div>
         
 
-          <div class="participants">
-              <div class="row">
+          <div id="coders" class="participants">
+              <!-- <div class="row">
                   <div class="col">Paula</div>
                   <div class="col">Adriana</div>
                   <div class="col">Veronika</div>
                   <div class="col">Lola García</div>
                   <div class="col">Natalia</div>
                   <div class="col">Raquel</div>
-              </div>
+              </div> -->
           </div>
 
         </div>  
@@ -73,15 +73,15 @@
 
       <!--article part 2-->
       <article id="part2">
-        <div class="message">  
+      <!--  <div class="message">  
             <p class="message">La Coder XXXXXXX ha sido eliminada</p> 
-        </div>
-        <div class="container">
-            <img src="./images/monitor.png" alt="ordenador" width=80%">
+        </div> -->
+        <div id="codersOff" class="container">
+            <!-- <img src="./images/monitor.png" alt="ordenador" width=80%">
             <div class="listCoders">
                 <p>La Coder LOLA ha sido eliminada</p>
                 <p>La Coder PAULA ha sido eliminada</p>
-            </div>
+            </div> -->
         </div>
       </article> 
 
@@ -112,6 +112,6 @@
     </footer>
 
     <script src="./js/index.js" type="text/javascript"></script>  
-
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 </html>
