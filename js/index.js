@@ -6,25 +6,21 @@ playButton.addEventListener('click', startPlay());
 
 //Array participantes con nombre y sin estado ON/OFF
 let listCoders = ['Natalia', 'Paula', 'Veronika','Lola G', 'Adriana','Raquel'];
+/* let randomCoder = listCoders[Math.floor(Math.random()* listCoders.length)];
+console.log(randomCoder); */
 
 // función que ejecuta el botón JUGAR: creamos variable con List COders vivas ON que sea aleatoria con Math random
 function startPlay(){
-    let listCodersOn = Math.floor(Math.random()*1);
-
-
-
-console.log(listCodersOn);
-
+   
 
     //console.log("le has dado");
    
 };
 
 // variable con listado de coders eliminadas
-let listCodersOff =[]; 
+
 
 //mostrar en consola la variable con array de todas las coders
-console.log(listCoders.length)
 
 
 
