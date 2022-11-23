@@ -20,9 +20,8 @@
         transform: translate(-50%, -50%);
         display:list-item;
         color: white;
-        list-style-position: inherit;
-        list-style: none;
-       
+/*         list-style-position: inherit;
+ */        list-style: none;
         font-size: small;
     }
 

@@ -57,4 +57,6 @@ function startPlay(){
             codersOff.innerHTML += `
                     <li class="erased">${listCodersOff[index]}</li>
                 `}
+
+                document.getElementById("codersOff").innerHTML= codersOff.innerHTML
 };
