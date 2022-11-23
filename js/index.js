@@ -5,7 +5,7 @@ const playButton = document.querySelector('#playButton');
 playButton.addEventListener('click', startPlay);
 
 //Array participantes con nombre y sin estado ON/OFF
-let listCoders = ['Natalia', 'Paula', 'Veronika','Lola G', 'Adriana','Raquel'];
+let listCoders = ['Natalia', 'Paula', 'Veronika','Lola', 'Adri','Raquel', 'Ana', 'Carmela', 'Elena', 'Noa', 'VeFlo', 'Alba', 'Esther', 'Lol', 'Paloma', 'Alesia', 'Bea', 'Camila', 'Carmen', 'Sierri', 'Flor', 'Palo', 'Sandra', 'Himo', 'Leidy'];
 
 //Array participantes eliminadas
 let listCodersOff = [];
@@ -35,7 +35,7 @@ function startPlay(){
             swal("¡Juega de nuevo!", {
                 buttons: false,
                 timer: 1500,
-        });
+            });
         }
 
         if (listCoders.length > 0) {
@@ -55,8 +55,8 @@ function startPlay(){
         codersOff.innerHTML = ``;
         for ( let index = 0; index < listCodersOff.length; index++ ){
             codersOff.innerHTML += `
-                    <li class="erased">${listCodersOff[index]}</li>
-                `}
+                    <p class="erased">${listCodersOff[index]}</p>
+            `}
 
                 document.getElementById("codersOff").innerHTML= codersOff.innerHTML
 };
