@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -8,7 +7,7 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
     </style>
-    <link rel="stylesheet" href="./css/mq800.css"
+    <link rel="stylesheet" href="./css/mq800.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/upper.css">
     <link rel="stylesheet" href="./css/bottom.css">
@@ -16,9 +15,6 @@
     <script src="https://kit.fontawesome.com/27097f60e3.js" crossorigin="anonymous"> </script>
     <title>ZOOMbadass</title>
 </head>
-    
-
-
 <body>
     <header>  
       <div class="log">
@@ -27,86 +23,68 @@
       <h4>Sala de Juego</h4>
       <img id="window" src="./images/min.PNG" alt="Botones de ventana">
     </header>
-
-    <figure>
-      <img id="headerZoom" src="./images/headerZoom2.png" alt="Header de Zoom">
-    </figure>
-
-    <section class="section">
-      <!--upper main-->
-
-      <article id="part1">
-
-        <div id="test">
-          <div class="containerUpper">
-              <a href="#">
-                  <button id="playButton" class="button1" onclick="startPlay">JUGAR</button>
-              </a>
-              <div class="boxHostName">
-                  <h4 id="host">Anfitrión</h4>
-                  <input id="addCoder" type="text" size="auto" maxlength="40" placeholder="Insertar participante..." name="nombre">
+    
+    <main>
+      <figure>
+        <img id="headerZoom" src="./images/headerZoom2.png" alt="Header de Zoom">
+      </figure>
+      <section class="section">
+        <article id="part1">
+          <div id="test">
+              <div class="containerUpper">
+                  <a href="#">
+                      <button id="playButton" class="button1" onclick="startPlay">JUGAR</button>
+                  </a>
+                  <div class="boxHostName">
+                      <h4 id="host">Anfitrión</h4>
+                      <input id="addCoder" type="text" size="auto" maxlength="40" placeholder="Insertar participante..." name="nombre">
+                    </div>
+                    <a href="#">
+                        <button id="addButton" class="button1">AÑADIR</button>
+                    </a>
+                </div>
               </div>
-              <a href="#">
-                  <button id="addButton" class="button1">AÑADIR</button>
-              </a>
-          </div>
-        <!-- 
-          <div id="coders" class="participants"> -->
-            
               <div id="coders" class="participants">
                 <div class="row"></div>
               </div>
-  
-          <!-- </div> -->
+              <figure>
+                  <img id="footerZoom" src="./images/footerZoom.png" alt="Footer de Zoom">
+              </figure>
+          </div>     
+        </article>
 
-          <figure>
-            <img id="footerZoom" src="./images/footerZoom.png" alt="Footer de Zoom">
-          </figure>
-
-
-          <div>
-          <img src="./images/monitor.png" alt="ordenador" width=90%">
-          <div>
-                <div id="codersOff"></div>   
-            </div>
-          </div>
-
-          
-          
-
-      </article>
-
-      <!--article part 2-->
-      <article id="part2">
-      <!--  <div class="message">  
-            <p class="message">La Coder XXXXXXX ha sido eliminada</p> 
-        </div> -->
-        </article> 
-
-    </section>   
+        <article id="part2">
+          <div class="container">
+            <img src="./images/monitor.png" alt="ordenador" width=90%">
+            <div id="codersOff" class="erased">
+              <ul>
+              </ul>
+            </div>  
+          </div>           
+        </article>
+      </section>    
+      <figure>
+        <img id="footerZoom2" src="./images/footerZoom.png" alt="Footer de Zoom">
+      </figure>
+    </main>
     
-    <figure>
-      <img id="footerZoom2" src="./images/footerZoom.png" alt="Footer de Zoom">
-    </figure>
-
-
     <footer>
-        <div class="group2">
+      <div class="group2">
           <small> &copy; 2022 <b>Zoombadass</b></small> 
           <br>
           <small> Todos los derechos reservados.</small>
-        </div>  
-        <div class="group1">
-            <div class="box">
-              <h6>Síguenos:</h6>
+      </div>  
+      <div class="group1">
+        <div class="box">
+            <h6>Síguenos:</h6>
               <div class="socialMedia">
                 <a href="#" class="fa fa-facebook"></a>
                 <a href="#" class="fa fa-instagram"></a>
                 <a href="#" class="fa fa-linkedin-square"></a>
                 <a href="#" class="fa fa-twitter"></a>
-            </div>
-          </div>
+              </div>
         </div>
+      </div>
     </footer>
 
     <script src="./js/index.js" type="text/javascript"></script>  

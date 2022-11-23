@@ -5,79 +5,51 @@
     font-family: 'Roboto', sans-serif;
 }
 
-
 @media (max-width:576px) {
-    .message {
-        padding: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color:white;
-        background-color: #0e72ed;
-        width: 100%;   
-        text-align: center; 
-        margin-bottom: 10px;
-        font-size:100%;
-    }
-
-    /*monitor*/
     .container{
         position: relative;
-        display: flex;
-        color: white;
+        display: inline-block;
         text-align: center;
         justify-content: center;
     }
-    /*lista de coders*/
-    .listCoders{
+
+    .erased{
         position: absolute;
-        top: 10%;
-        left: 45%;
-        text-align: left;
+        top: 20%;
+        left: 50%;
         transform: translate(-50%, -50%);
-        font-size:80%;
+        display:list-item;
+        color: white;
+        list-style-position: inherit;
+        list-style: none;
+       
+        font-size: small;
     }
 
     #footerZoom2 {
         display: none;
-    }
-    
+    }    
 }
+
 @media (min-width:576px) and (max-width:800px) {
-
-    .message {
-        padding: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color:white;
-        background-color: #0e72ed;
-        width: 70%;   
-        text-align: center; 
-        margin: auto;
-        margin-bottom: 10px;
-        font-size:100%;
-
-    }
-    /*monitor*/
     .container{
         position: relative;
-        display: flex;
-        color: white;
-        text-align: center;
-        justify-content: center;
-    }
-    /*lista de coders*/
-    .listCoders{
-        position: absolute;
-        top: 10%;
-        left: 45%;
-        text-align: left;
+        display: inline-block;
+        text-align: center;    }
+
+    .erased{
+        position:absolute;
+        top: 20%;
+        left: 50%;
         transform: translate(-50%, -50%);
+        color:white;
+        font-size: 30%;
+        list-style: none;
+        list-style-position: inherit;
+  
     }
 
     #footerZoom2 {
         display: none;
     }
-
 }

@@ -55,6 +55,6 @@ function startPlay(){
         codersOff.innerHTML = ``;
         for ( let index = 0; index < listCodersOff.length; index++ ){
             codersOff.innerHTML += `
-                    <p>${listCodersOff[index]}</p>
+                    <li class="erased">${listCodersOff[index]}</li>
                 `}
 };
