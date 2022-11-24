@@ -37,7 +37,9 @@ A wheel of doom game, where you:
 
 ## Stacks:
 
-HTML5 , CSS3 , JAVASCRIPT 
+HTML5 , CSS3 , JAVASCRIPT
+
+* Librería: sweetalertjs.org
 ***
 ## Methodology:
 Agile with SCRUM; Mob and Pair programming
